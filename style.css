@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    background-color: darkorchid;
+}
+
+header a {
+    text-decoration: none;
+    border: 5px solid white;
+    border-radius: 6px;
+    background-color: white;
+    margin: 8px;
+    padding: 2px;
+    position: absolute;
+    top: 24px;
+}
+
+header a:hover {
+    color: darkred;
+    background-color: aquamarine;
+    border-color: aquamarine;
+    transition: 0.2s;
+    box-shadow: 5px 5px 5px 0 black;
+}
+
+header h1 {
+    position: absolute;
+    top: 9px;
+    margin-left: 180px;
+
+}
+
+footer {
+    background-color: burlywood;
+}
+
+header h1:hover {
+    transition: 0.4s;
+    transform:scale(1.1);
+    : linear-gradient(red,yellow);
+}
+
+iframe:hover {
+    transition: 100ms linear;
+    transform:scale(1.0);
+    border: 6px solid blue;
+    box-shadow: 5px 5px 5px 0 black;
+}
+
